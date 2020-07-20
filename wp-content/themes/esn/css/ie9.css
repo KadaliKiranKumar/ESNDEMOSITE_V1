@@ -1,0 +1,16 @@
+/*ie9 css*/
+ .contact_us_inner{
+	left:-75px;
+	top:350px!important;
+}
+.apply_for_inner{
+	left:-50px;	
+}
+.animate.fadeIn,
+.animate.fadeInUp,
+.animate.fadeInRight{
+	opacity:1;
+}
+ul li{
+	list-type:disc;
+}

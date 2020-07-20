@@ -1,0 +1,186 @@
+/* Logos */
+.logoopv1 {
+	float: left;
+	width: 16%;
+	height: 90px;
+	padding: 20px 0 0 2%;
+	background: #d2527f;
+}
+.menuopv1 {
+	float: left;
+	width: 82%;
+}
+
+
+/* page sections */
+.onepage_sectionarea {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 30px 0px;
+}
+.onepage_section1 {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.onepage_section2 {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.onepage_section3 {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.onepage_section4 {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 0px 0px;
+}
+.onepage_section5 {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.onepage_section6 {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+.logoopv1 {
+	width: 23%;
+}
+.menuopv1 {
+	width: 75%;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.logoopv1 {
+	width: 34%;
+}
+.menuopv1 {
+	width: 64%;
+	padding-left: 5%;
+}
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+.logoopv1 {
+	width: 40%;
+}
+.menuopv1 {
+	width: 58%;
+	padding-left: 5%;
+}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+
+.logoopv1 {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.logoopv1 img {
+	padding-top: 20px;
+}
+.menuopv1 {
+	width: 95%;
+	padding-left: 7%;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 479px){
+.logoopv1 {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.logoopv1 img {
+	padding-top: 20px;
+}
+.menuopv1 {
+	width: 95%;
+	padding-left: 7%;
+}
+
+
+
+}
+
+
+
+
+
+
+
