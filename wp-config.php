@@ -18,7 +18,7 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
 //define( 'WPCACHEHOME', '/services2/webpages/e/s/esntechnologies.com/public/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'esnwebsite');
+define('DB_NAME', 'esndemosite');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -27,7 +27,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'Esn@2020');
 
 /** MySQL hostname */
-define('DB_HOST', 'http://192.241.148.26:83/');
+define('DB_HOST', '127.0.0.1:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

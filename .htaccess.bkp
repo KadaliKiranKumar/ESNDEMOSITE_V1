@@ -1,0 +1,36 @@
+
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ESNDEMOSITE/index.php [L]
+</IfModule>
+
+# END WordPress
+# for PHP5-CGI
+AddHandler php-cgi .php
+Action php-cgi /cgi-bin/php-cgi
+
+# for php and securewebexchange
+<IfDefine SSL>
+    AddHandler php-cgi .php
+    Action php-cgi https://secure38.securewebsession.com/esntechnologies.com/cgi-bin/php-cgi
+</IfDefine>
+###### webforce begin ######
+DirectoryIndex index.html index.php /hproxy.php
+
+SetEnv PROXYSERVER https://wfsites.websitecreatorprotool.com
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^hproxy.php
+RewriteRule ^(.*)$ /hproxy.php/$1 [L,NC,QSA]
+###### webforce end ######
